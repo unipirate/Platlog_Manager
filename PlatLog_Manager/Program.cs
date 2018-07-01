@@ -15,6 +15,7 @@ namespace PlatLog_Manager
         public static void Main(string[] args)
         {
             BuildWebHost(args).Run();
+            Console.WriteLine("123");
         }
 
         public static IWebHost BuildWebHost(string[] args) =>
